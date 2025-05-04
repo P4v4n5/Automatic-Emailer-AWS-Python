@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/EmailApp
+hooks:
+  AfterInstall:
+    - location: run_script.sh
+      timeout: 300
+      runas: ec2-user
