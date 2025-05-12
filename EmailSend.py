@@ -6,7 +6,7 @@ ses = boto3.client('ses', region_name='us-east-1')
 
 # Sender and receiver emails (both must be verified in SES if in sandbox)
 sender_email = "pavankumarrs099@gmail.com"
-recipient_email = "psrinivasulu@scu.edu"
+recipient_email = "pavansrinivasulu6516@gmail.com"
 
 # Current datetime
 now = datetime.now()
