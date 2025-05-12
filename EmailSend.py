@@ -40,5 +40,5 @@ response = ses.send_email(
 )
 
 
-print("Email sent to {0}! Message ID:{1}".format(recipient_email, response['MessageId']))
+print("Email sent to {0}!! Message ID:{1}".format(recipient_email, response['MessageId']))
 
